@@ -12,6 +12,5 @@ fun main() {
     hours = minutes / COUNT_OF_PARTS
     minutes %= COUNT_OF_PARTS
 
-    print(String.format("%02d:%02d:", hours, minutes))
-    print(String.format("%02d", seconds))
+    print(String.format("%02d:%02d:%02d", hours, minutes, seconds))
 }
