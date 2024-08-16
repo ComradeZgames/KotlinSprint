@@ -1,14 +1,14 @@
 package org.example.lesson_1
 
 fun main() {
-    val year = 1961
-    var hour = 9
-    var minute = 7
+    val year = "1961"
+    var hour = "09"
+    var minute = "07"
 
-    println("year = $year\nhour = 0$hour\nminute = 0$minute")
+    println("year = $year\nhour = $hour\nminute = $minute")
 
-    hour = 10
-    minute = 55
+    hour = "10"
+    minute = "55"
 
     print("$hour:$minute")
 }
